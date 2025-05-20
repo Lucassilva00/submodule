@@ -1,0 +1,16 @@
+criar uma branch nova diferente da que será utilizado no merge por ex.
+nesta branch fazer o projeto e os commits
+
+git rebase nome_branch_usada_merge nome_branch_privada_commits_errados -i
+
+pressionar i para inserção/edição
+
+pick para escolher
+squash para "excluir"
+reword para renomear commit
+
+esc -> :x! para salvar o arquivo
+
+caso ainda reste algum commit para ser exluido só ccolocar # antes dele e salvar
+até que chegar no que troca o nome e é só trocar lembrando de pressionar i de insert
+
